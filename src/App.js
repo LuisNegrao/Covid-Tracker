@@ -14,7 +14,7 @@ import {
   CardContent,
 } from "@material-ui/core";
 
-function App() {
+function App() { 
   const [countries, setCountries] = useState([]);
   const [country, setCountry] = useState("WorldWide");
   const [countyState, setCountyState] = useState({});
